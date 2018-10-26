@@ -15,4 +15,167 @@ a {
   text-decoration: none;
 }
 
+/* line 14, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+button {
+  border-width: 0;
+  color: #fff;
+  border-radius: 2px;
+  background-color: #06D79D;
+}
+
+/* line 20, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 25, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-header {
+  padding: 50px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #07043B;
+}
+
+/* line 31, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-header .btn-signin, .page-header .btn-signup {
+  background-color: transparent;
+  padding: 10px 30px;
+  transition: .5s;
+}
+
+/* line 35, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-header .btn-signin:hover, .page-header .btn-signup:hover {
+  background-color: #06D79D;
+  cursor: pointer;
+}
+
+/* line 42, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.hero {
+  padding: 50px 80px;
+  background-color: #07043B;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+/* line 48, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.hero .hero-left {
+  margin-right: 200px;
+}
+
+/* line 50, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.hero .hero-left h1 {
+  line-height: 30px;
+}
+
+/* line 54, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.hero .btn-getstarted {
+  margin-top: 50px;
+  padding: 30px 90px;
+  font-size: 18px;
+}
+
+/* line 59, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.hero .btn-getstarted:hover {
+  cursor: pointer;
+}
+
+/* line 66, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive h2 {
+  margin: 130px 0;
+  text-align: center;
+}
+
+/* line 71, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive .row {
+  display: flex;
+}
+
+/* line 75, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive .stay-productive-left {
+  margin-right: 130px;
+}
+
+/* line 79, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive .stay-productive-right p {
+  margin: 25px 0;
+  line-height: 14px;
+}
+
+/* line 83, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive .stay-productive-right .row-left {
+  margin-right: 130px;
+}
+
+/* line 88, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive footer h2 {
+  margin-bottom: 0;
+}
+
+/* line 91, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive footer p {
+  text-align: center;
+  width: 50%;
+  margin: 40px auto;
+}
+
+/* line 96, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive footer form {
+  width: 61%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 60px;
+}
+
+/* line 101, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive footer form input[type="text"] {
+  width: 50%;
+  margin-right: 30px;
+  padding: 15px;
+}
+
+/* line 106, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.stay-productive footer form button[type="submit"] {
+  width: 30%;
+  padding: 17px 0;
+}
+
+/* line 114, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-footer {
+  padding: 50px 80px;
+  background-color: #07043B;
+  display: flex;
+  color: #fff;
+}
+
+/* line 119, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-footer .footer-left, .page-footer .footer-center, .page-footer .footer-right, .page-footer .col {
+  margin-right: 80px;
+}
+
+/* line 122, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-footer .footer-center {
+  padding-left: 80px;
+  display: flex;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+/* line 128, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-footer .footer-center .col p {
+  margin-bottom: 30px;
+}
+
+/* line 132, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-footer .footer-center .col ul li {
+  margin-bottom: 25px;
+}
+
+/* line 134, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+.page-footer .footer-center .col ul li a {
+  color: #fff;
+}
+
 /*# sourceMappingURL=../css/style.map */
