@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"$footer_blue:  #07043B;\r\n$btn_green: #06D79D;\r\n* {\r\n  box-sizing: border-box;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\nli {\r\n  list-style-type: none;\r\n}\r\na {\r\n  text-decoration: none;\r\n}"
+	],
+	"mappings": ";AAEA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAW;EACvB,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACX;;;AACD,AAAA,EAAE,CAAC;EACD,eAAe,EAAE,IAAK;CACvB;;;AACD,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAK;CACvB",
+	"names": []
+}
