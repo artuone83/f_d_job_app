@@ -8,63 +8,74 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="page-header container">
     <div class="logo">
       <a href="#">
-        <img src="./images//logo.svg" alt="logo">      
+        <img src="./images/logo.svg" alt="logo">             
       </a>
     </div>
     <div class="btn">
-      <button>Sign In</button>
-      <button>Sign Up</button>
+      <button class="btn-signin">Sign In</button>
+      <button class="btn-signup">Sign Up</button>
     </div>
   </header>
-  <section class="hero">
+  <section class="hero container">
     <div class="hero-left">
       <h1>All Your Filles In One Secure Location, Accessible Anywhere</h1>
-      <button>Get Started</button>
+      <button class="btn-getstarted">Get Started</button>
     </div>
     <div class="hero-right">
       <img src="./images/illustration-hero.svg" alt="hero">
     </div>
   </section>
-  <section class="stay-productive">
-    <h2>Stay Productive, Wherever You Are</h2>
-    <div class="stay-productive-left">
-      <img src="./images/illustration-features.svg" alt="features">
+  <section class="stay-productive container">
+    <header>
+      <h2>Stay Productive, Wherever You Are</h2>
+    </header>
+    <div class="row">
+      <div class="stay-productive-left">
+        <img src="./images/illustration-features.svg" alt="features">
+      </div>
+      <div class="stay-productive-right">
+        <div class="row">
+          <div class="row-left">
+             <h3>All platforms, all devices, all your files </h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, ac accumsan magna tellus sed leo.</p>
+          </div>
+          <div class="row-right">
+            <h3>Real-time collaboration</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, ac accumsan magna tellus sed leo.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-left">
+            <h3>Security you can trust</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, ac accumsan magna tellus sed leo.</p>
+          </div>
+          <div class="row-right">
+            <h3>Automatick backups</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, ac accumsan magna tellus sed leo.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="stay-productive-left">
-      <div class="row">
-        <div class="row-left">
-           <h3>All platforms, all devices, all your files </h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, ac accumsan magna tellus sed leo.</p>
-        </div>
-        <div class="row-right">
-          <h3>Real-time collaboration</h3>        
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, ac accumsan magna tellus sed leo.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="row-left">
-          <h3>Security you can trust</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, ac accumsan magna tellus sed leo.</p>
-        </div>
-        <div class="row-right">
-          <h3>Automatick backups</h3>        
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, ac accumsan magna tellus sed leo.</p>
-        </div>
-      </div>
-    </div> 
-    <h2>Get Early Access Today</h2>
-    <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-    <form action="#">
-      <input type="text" placeholder="email@example.com">
-      <input type="submit" value="Join">
-    </form>
+    <footer>
+      <h2>Get Early Access Today</h2>
+      <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.        
+      </p>
+      <form action="#">
+        <input type="text" placeholder="email@example.com">
+        <button type="submit">Join</button>
+      </form>
+    </footer>
   </section>
-  <footer class="page-footer">
+  <footer class="page-footer container">
     <div class="footer-left">
-      <p>Fylo</p>
+        <div class="logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="logo">             
+            </a>
+          </div>
       <p>Phone: +1-543-123-4567</p>
       <p>example@fylo.com</p>
     </div>
