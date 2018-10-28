@@ -3,6 +3,7 @@ $btn_green: #06D79D;
 $gray: #949494;
 $text_blue: #060429;
 $para_blue: #3e377a;
+//media-width: ≥768px, @media screen and (max-width: 992px)
 
 * {
   box-sizing: border-box;
@@ -60,10 +61,17 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    padding-right: 0;
+    padding-left: 0; 
+  }
 
   .logo {
     img {
       height: 45px;
+      @media screen and (max-width: 768px) {
+        height: 23px;
+      }
     }
   }
 
@@ -88,13 +96,28 @@ button {
   color: #fff;
   display: flex;
   align-items: center;
-
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
   .hero-left {
     margin-right: 30px;
-
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      margin-right: 0;
+    }
     h1 {
       font-size: 38px;
       line-height: 55px;
+      @media screen and (max-width: 768px) {
+        &:first-letter {
+          text-transform: uppercase;
+        }        
+        font-size: 25px;
+        line-height: 35px;
+        
+        text-transform: lowercase;
+        
+      }
     }
   }
 
@@ -106,6 +129,13 @@ button {
 
     &:hover {
       cursor: pointer;
+    }
+  }
+  .hero-right {
+    img {
+      @media screen and (max-width: 768px) {
+        width: 190px;
+      }
     }
   }
 }
@@ -135,18 +165,30 @@ button {
 
   .row {
     display: flex;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;      
+    }
   }
 
   .stay-productive-left {
     margin-right: 130px;
+    @media screen and (max-width: 768px) {
+      margin-right: 0;
+    }
 
     img {
       width: 380px;
       height: auto;
+      @media screen and (max-width: 768px) {
+        width: 190px;
+      }
     }
   }
 
   .stay-productive-right {
+    display: flex;
+    flex-wrap: wrap;
     p {
       margin: 25px 0;
       line-height: 25px;
@@ -160,8 +202,19 @@ button {
       color: $text_blue;
     }
 
-    .row-left {
+    .row1-left {
       margin-right: 130px;
+      //order: 2;
+    }
+    .row1-right {
+      //order: 1;
+    }
+    .row2-left {
+      margin-right: 130px;
+      //order: 2;
+    }
+    .row2-right {
+      //order: 1;
     }
   }
 
@@ -181,23 +234,37 @@ button {
       color: $para_blue;
       font-weight: bold;
       line-height: 25px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
     }
 
     form {
       width: 55%;
       margin: 0 auto;
       text-align: center;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
 
 
       .form-input {
         width: 55%;
         margin-right: 30px;
         box-shadow: 0px 0px 12px #efefef;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
 
       }
 
       .btn-submit {
         box-shadow: 6px 4px 6px #efefef;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
       }
     }
   }
@@ -215,16 +282,26 @@ button {
   display: flex;
   justify-content: space-between;
   color: #fff;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 
   .footer-left,
   .footer-center,
   .footer-right {
     margin-right: 20px;
+    @media screen and (max-width: 768px) {
+      margin-right: 0;
+    }
   }
 
   .footer-left {
 
     width: 20%;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      order: 1;
+    }
 
     .logo {
       img {
@@ -275,6 +352,12 @@ button {
     justify-content: space-around;
     border-left: 1px solid;
     border-right: 1px solid;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      border: none;
+      flex-direction: column;
+      order: 3;
+    }
 
     .col {
       margin-right: 20px;
@@ -303,6 +386,10 @@ button {
     width: 30%;
     text-align: right;
     margin-right: 0;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      order: 2;
+    }
 
     p {
       text-align: left;
