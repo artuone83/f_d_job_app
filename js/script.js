@@ -1,8 +1,14 @@
-let headingMain = document.querySelector('#heading-main');
-let rowClassItem = document.querySelectorAll('.row');
-let row1Right = document.querySelector('.row1-right');
-let row2Left = document.querySelector('.row2-left');
+const headingMain = document.querySelector('#heading-main');
+const rowClassItem = document.querySelectorAll('.row');
+const row1Right = document.querySelector('.row1-right');
+const row2Left = document.querySelector('.row2-left');
+const allPlatformsHeader = document.querySelector('.row1-left h3');
+const allPlatformsHeaderMobile = 'All platforms, all devices, all your files';
+const allPlatformsHeaderDesktop = `All platforms, all
+devices, all your files`;
+
 let winWidth = innerWidth;
+
 
 // onresize
 window.onresize = function(e){  
@@ -12,7 +18,9 @@ window.onresize = function(e){
 // onload
 window.onload = function() {  
   changeOrder();
+  changeHeader();
 }
+// functions
 //Remove items from row
 function removeItem(item) {
   item.remove();
@@ -26,7 +34,7 @@ function appendItem(parent, itemApp) {
 }
 // change order function
 function changeOrder() {
-  if (winWidth <= 768 ) {
+  if (winWidth <= 768 ) {    
     removeItem(row1Right);
     removeItem(row2Left);
     prependItem(rowClassItem[2],row1Right);
@@ -36,6 +44,14 @@ function changeOrder() {
     removeItem(row2Left);
     prependItem(rowClassItem[2],row2Left);
     appendItem(rowClassItem[1], row1Right);
+  }
+}
+function changeHeader() {
+  
+  if (winWidth <= 768 ) {    
+    allPlatformsHeader.innerHTML = allPlatformsHeaderMobile;
+  } else {
+    allPlatformsHeader.innerHTML = allPlatformsHeaderDesktop;
   }
 }
 
