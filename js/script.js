@@ -6,9 +6,22 @@ const allPlatformsHeader = document.querySelector('.row1-left h3');
 const allPlatformsHeaderMobile = 'All platforms, all devices, all your files';
 const allPlatformsHeaderDesktop = `All platforms, all
 devices, all your files`;
+const form = document.querySelectorAll('form');
+const link = document.querySelectorAll('a');
 
 let winWidth = innerWidth;
+// prevent default
+console.log(link);
+form[0].addEventListener('submit', function(e) {
+  e.preventDefault();
+});
+form[1].addEventListener('submit', function(e) {
+  e.preventDefault();
+});
 
+link[12].addEventListener('click', function(e){
+  e.preventDefault();
+})
 
 // onresize
 window.onresize = function(e){  
@@ -34,7 +47,7 @@ function appendItem(parent, itemApp) {
 }
 // change order function
 function changeOrder() {
-  if (winWidth <= 768 ) {    
+  if (winWidth <= 1020 ) {    
     removeItem(row1Right);
     removeItem(row2Left);
     prependItem(rowClassItem[2],row1Right);
@@ -48,7 +61,7 @@ function changeOrder() {
 }
 function changeHeader() {
   
-  if (winWidth <= 768 ) {    
+  if (winWidth <= 1020 ) {    
     allPlatformsHeader.innerHTML = allPlatformsHeaderMobile;
   } else {
     allPlatformsHeader.innerHTML = allPlatformsHeaderDesktop;
