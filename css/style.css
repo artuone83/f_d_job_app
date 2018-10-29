@@ -27,21 +27,22 @@ button {
   color: #fff;
   border-radius: 4px;
   background-color: #06D79D;
+  cursor: pointer;
 }
 
-/* line 35, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 36, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .gradient {
   background: linear-gradient(135deg, #100a6e 0, #8581cd 85%);
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 35, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 36, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .gradient {
     padding: 30px 30px;
   }
 }
 
-/* line 42, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 43, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .form-input {
   width: 100%;
   padding: 15px;
@@ -49,20 +50,20 @@ button {
   border-width: 0;
 }
 
-/* line 50, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 51, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .btn-submit {
   width: 30%;
   padding: 15px 0;
   font-size: 16px;
 }
 
-/* line 56, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 57, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .container {
   max-width: 1280px;
   margin: 0 auto;
 }
 
-/* line 62, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 63, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-header {
   padding: 50px 80px;
   display: flex;
@@ -71,25 +72,25 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 62, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 63, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-header {
     padding: 0;
   }
 }
 
-/* line 73, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 74, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-header .logo img {
   height: 45px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 73, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 74, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-header .logo img {
     height: 23px;
   }
 }
 
-/* line 81, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 82, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-header .btn-signin,
 .page-header .btn-signup {
   background-color: transparent;
@@ -99,7 +100,7 @@ button {
   letter-spacing: 1px;
 }
 
-/* line 88, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 89, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-header .btn-signin:hover,
 .page-header .btn-signup:hover {
   background-color: #06D79D;
@@ -107,7 +108,7 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 81, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 82, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-header .btn-signin,
   .page-header .btn-signup {
     padding: 5px 15px;
@@ -117,7 +118,7 @@ button {
   }
 }
 
-/* line 102, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 103, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .hero {
   padding: 50px 80px 330px;
   color: #fff;
@@ -126,98 +127,102 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 102, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 103, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .hero {
     flex-direction: column-reverse;
+    padding-top: 80px;
     padding-right: 0;
     padding-left: 0;
   }
 }
 
-/* line 113, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 115, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .hero .hero-left {
   margin-right: 30px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 113, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 115, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .hero .hero-left {
     text-align: center;
     margin-right: 0;
   }
 }
 
-/* line 119, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 121, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .hero .hero-left h1 {
   font-size: 38px;
   line-height: 55px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 119, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 121, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .hero .hero-left h1 {
     font-size: 25px;
     line-height: 35px;
     margin: 50px 0;
     text-transform: lowercase;
+    font-weight: 600;
+    margin-left: -3px;
   }
-  /* line 123, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 125, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .hero .hero-left h1:first-letter {
     text-transform: uppercase;
   }
 }
 
-/* line 135, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 139, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .hero .btn-getstarted {
   margin-top: 50px;
-  padding: 20px 90px;
+  padding: 15px 60px;
   font-size: 22px;
   box-shadow: 5px 6px 7px #4c469e;
 }
 
-/* line 140, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 144, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .hero .btn-getstarted:hover {
   cursor: pointer;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 135, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 139, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .hero .btn-getstarted {
     margin-top: 0;
+    font-size: 15px;
   }
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 148, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 153, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .hero .hero-right img {
-    width: 190px;
+    width: 215px;
   }
 }
 
-/* line 157, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 162, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive {
   background-color: #fff;
-  transform: skewY(5deg);
+  transform: skewY(8deg);
 }
 
-/* line 162, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 167, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content {
   position: relative;
   padding-bottom: 150px;
   padding-top: 150px;
-  transform: skewY(-5deg);
+  transform: skewY(-8deg);
   margin-top: -210px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 162, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 167, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content {
     padding-right: 30px;
     padding-left: 30px;
   }
 }
 
-/* line 174, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 179, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content header h2 {
   text-align: center;
   font-size: 32px;
@@ -227,111 +232,114 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 174, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 179, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content header h2 {
-    line-height: 55px;
+    line-height: 40px;
+    font-size: 25px;
+    margin-bottom: 80px;
   }
 }
 
-/* line 186, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 194, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content .row {
   display: flex;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 186, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 194, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content .row {
     flex-direction: column;
     align-items: center;
   }
 }
 
-/* line 194, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 202, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content .stay-productive-left {
   margin-right: 130px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 194, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 202, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content .stay-productive-left {
     margin-right: 0;
-    margin-bottom: 135px;
+    margin-bottom: 80px;
   }
 }
 
-/* line 201, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 209, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content .stay-productive-left img {
   width: 380px;
   height: auto;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 201, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 209, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content .stay-productive-left img {
-    width: 190px;
+    width: 220px;
   }
 }
 
-/* line 210, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 219, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content .stay-productive-right {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 213, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 222, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content .stay-productive-right p {
   margin: 25px 0;
   line-height: 25px;
   color: #949494;
+  font-size: 14px;
 }
 
-/* line 219, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 229, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content .stay-productive-right h3 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
   color: #060429;
 }
 
-/* line 226, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 236, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content .stay-productive-right .row1-left {
   margin-right: 130px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 226, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 236, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content .stay-productive-right .row1-left {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 232, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 242, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content .stay-productive-right .row1-right {
     margin-right: 0;
   }
 }
 
-/* line 237, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 247, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content .stay-productive-right .row2-left {
   margin-right: 130px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 237, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 247, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content .stay-productive-right .row2-left {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 243, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 253, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content .stay-productive-right .row2-right {
     margin-right: 0;
   }
 }
 
-/* line 251, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 261, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content footer h2 {
   margin-bottom: 0;
   text-align: center;
@@ -340,7 +348,14 @@ button {
   margin-top: 135px;
 }
 
-/* line 259, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+@media screen and (max-width: 1020px) {
+  /* line 261, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  .stay-productive-content footer h2 {
+    font-size: 25px;
+  }
+}
+
+/* line 272, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content footer p {
   text-align: center;
   width: 55%;
@@ -351,13 +366,15 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 259, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 272, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content footer p {
     width: 100%;
+    font-size: 14px;
+    font-weight: 600;
   }
 }
 
-/* line 271, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 286, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content footer form {
   width: 55%;
   margin: 0 auto;
@@ -365,13 +382,13 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 271, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 286, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content footer form {
     width: 100%;
   }
 }
 
-/* line 280, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 295, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content footer form .form-input {
   width: 55%;
   margin-right: 30px;
@@ -379,34 +396,34 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 280, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 295, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content footer form .form-input {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 
-/* line 292, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 307, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .stay-productive-content footer form .btn-submit {
   box-shadow: 6px 4px 6px #efefef;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 292, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 307, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .stay-productive-content footer form .btn-submit {
     width: 100%;
   }
 }
 
-/* line 303, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 318, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer {
   background-color: #07043B;
 }
 
-/* line 307, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 322, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content {
-  margin-top: -80px;
+  margin-top: -100px;
   padding: 300px 80px 130px 80px;
   display: flex;
   justify-content: space-between;
@@ -414,15 +431,16 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 307, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 322, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content {
     flex-direction: column;
+    padding-top: 280px;
     padding-right: 60px;
     padding-left: 60px;
   }
 }
 
-/* line 320, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 336, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-left,
 .page-footer-content .footer-center,
 .page-footer-content .footer-right {
@@ -430,7 +448,7 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 320, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 336, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-left,
   .page-footer-content .footer-center,
   .page-footer-content .footer-right {
@@ -438,25 +456,25 @@ button {
   }
 }
 
-/* line 329, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 345, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-left {
   width: 20%;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 329, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 345, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-left {
     width: 100%;
     order: 1;
   }
 }
 
-/* line 338, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 354, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-left .logo img {
-  height: 55px;
+  height: 50px;
 }
 
-/* line 343, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 359, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-left .footer-phone {
   position: relative;
   margin-top: 80px;
@@ -464,7 +482,7 @@ button {
   margin-left: 40px;
 }
 
-/* line 349, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 365, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-left .footer-phone:before {
   content: "";
   width: 20px;
@@ -476,13 +494,13 @@ button {
   top: 0;
 }
 
-/* line 361, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 377, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-left .footer-email {
   position: relative;
   margin-left: 40px;
 }
 
-/* line 365, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 381, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-left .footer-email:before {
   content: "";
   width: 20px;
@@ -495,13 +513,13 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 361, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 377, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-left .footer-email {
     margin-bottom: 80px;
   }
 }
 
-/* line 383, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 399, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-center {
   width: 40%;
   padding-left: 20px;
@@ -512,7 +530,7 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 383, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 399, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-center {
     width: 100%;
     border: none;
@@ -522,49 +540,49 @@ button {
   }
 }
 
-/* line 399, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 415, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-center .col {
   margin-right: 20px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 399, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 415, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-center .col {
     margin-right: 0;
     margin-bottom: 80px;
   }
-  /* line 404, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 420, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-center .col:last-of-type {
     margin-bottom: 0;
   }
 }
 
-/* line 409, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 425, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-center .col p {
   margin-bottom: 30px;
   font-weight: bold;
   font-size: 18px;
 }
 
-/* line 416, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 432, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-center .col ul li {
   margin-bottom: 25px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 416, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 432, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-center .col ul li {
     margin-bottom: 12px;
   }
 }
 
-/* line 422, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 438, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-center .col ul li a {
   color: #fff;
   font-size: 15px;
 }
 
-/* line 431, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 447, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-right {
   width: 30%;
   text-align: right;
@@ -572,7 +590,7 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 431, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 447, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-right {
     width: 100%;
     order: 2;
@@ -580,7 +598,7 @@ button {
   }
 }
 
-/* line 442, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 458, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-right p {
   text-align: left;
   font-size: 15px;
@@ -588,25 +606,25 @@ button {
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 442, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 458, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-right p {
     text-align: center;
   }
 }
 
-/* line 451, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 467, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-right .btn-submit {
   width: 184px;
 }
 
 @media screen and (max-width: 1020px) {
-  /* line 451, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+  /* line 467, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
   .page-footer-content .footer-right .btn-submit {
     width: 55%;
   }
 }
 
-/* line 458, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
+/* line 474, D:/web_dev/PROJEKTY/forte_digital/scss/style.scss */
 .page-footer-content .footer-right .form-input {
   margin-top: 35px;
   margin-bottom: 10px;

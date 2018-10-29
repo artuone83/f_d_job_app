@@ -29,6 +29,7 @@ button {
   color: #fff;
   border-radius: 4px;
   background-color: $btn_green;
+  cursor: pointer;
 
 }
 
@@ -106,6 +107,7 @@ button {
   align-items: center;
   @media screen and (max-width: 1020px) {
     flex-direction: column-reverse;
+    padding-top: 80px;
     padding-right: 0;
     padding-left: 0;
 
@@ -127,6 +129,8 @@ button {
         line-height: 35px;
         margin: 50px 0;
         text-transform: lowercase;
+        font-weight: 600;
+        margin-left: -3px;
         
       }
     }
@@ -134,7 +138,7 @@ button {
 
   .btn-getstarted {
     margin-top: 50px;
-    padding: 20px 90px;
+    padding: 15px 60px;
     font-size: 22px;
     box-shadow: 5px 6px 7px #4c469e;
     &:hover {
@@ -142,12 +146,13 @@ button {
     }
     @media screen and (max-width: 1020px) {
       margin-top: 0;
+      font-size: 15px;
     }
   }
   .hero-right {
     img {
       @media screen and (max-width: 1020px) {
-        width: 190px;
+        width: 215px;
       }
     }
   }
@@ -156,14 +161,14 @@ button {
 //stay-productive
 .stay-productive {
   background-color: #fff;
-  transform: skewY(5deg);
+  transform: skewY(8deg);
 }
 
 .stay-productive-content {
   position: relative;
   padding-bottom: 150px;
   padding-top: 150px;
-  transform: skewY(-5deg);
+  transform: skewY(-8deg);
   margin-top: -210px;
   @media screen and (max-width: 1020px) {
     padding-right: 30px;
@@ -178,7 +183,10 @@ button {
       font-weight: bold;
       color: $text_blue;
       @media screen and (max-width: 1020px) {
-        line-height: 55px;
+        line-height: 40px;
+        font-size: 25px;
+        margin-bottom: 80px;
+
       }
     }
   }
@@ -195,16 +203,17 @@ button {
     margin-right: 130px;
     @media screen and (max-width: 1020px) {
       margin-right: 0;
-      margin-bottom: 135px;
+      margin-bottom: 80px;
     }
 
     img {
       width: 380px;
       height: auto;
       @media screen and (max-width: 1020px) {
-        width: 190px;
+        width: 220px;
       }
     }
+    
   }
 
   .stay-productive-right {
@@ -214,10 +223,11 @@ button {
       margin: 25px 0;
       line-height: 25px;
       color: $gray;
+      font-size: 14px;
     }
 
     h3 {
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 800;
       letter-spacing: 1px;
       color: $text_blue;
@@ -253,7 +263,10 @@ button {
       text-align: center;
       font-size: 32px;
       color: $text_blue;
-      margin-top: 135px
+      margin-top: 135px;
+      @media screen and (max-width: 1020px) {
+        font-size: 25px;
+      }
     }
 
     p {
@@ -265,6 +278,8 @@ button {
       line-height: 25px;
       @media screen and (max-width: 1020px) {
         width: 100%;
+        font-size: 14px;
+        font-weight: 600;
       }
     }
 
@@ -284,7 +299,7 @@ button {
         @media screen and (max-width: 1020px) {
           width: 100%;
           margin-right: 0;
-          margin-bottom: 10px;
+          margin-bottom: 15px;
         }
 
       }
@@ -306,13 +321,14 @@ button {
 
 .page-footer-content {
 
-  margin-top: -80px;
+  margin-top: -100px;
   padding: 300px 80px 130px 80px;
   display: flex;
   justify-content: space-between;
   color: #fff;
   @media screen and (max-width: 1020px) {
     flex-direction: column;
+    padding-top: 280px;
     padding-right: 60px;
     padding-left: 60px;
   }
@@ -336,7 +352,7 @@ button {
 
     .logo {
       img {
-        height: 55px;
+        height: 50px;
       }
     }
 
