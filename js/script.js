@@ -1,16 +1,13 @@
+'use strict'
 const rowClassItem = document.querySelectorAll('.row');
 const row1Right = document.querySelector('.row1-right');
 const row2Left = document.querySelector('.row2-left');
 const allPlatformsHeader = document.querySelector('.row1-left h3');
 const allPlatformsHeaderMobile = 'All platforms, all devices, all your files';
 const allPlatformsHeaderDesktop = 'All platforms, all<br>devices, all your files';
-
 const form = document.querySelectorAll('form'); 
 const link = document.querySelectorAll('a');
-
 let winWidth = innerWidth;
-
-
 
 // onresize
 window.onresize = function(e){  
@@ -23,20 +20,19 @@ window.onload = function() {
   changeOrder();
   changeHeader();
   // prevent default
-  form.forEach(function(form) {
+   form.forEach(function(form) {
     form.addEventListener('submit', function(e){
       e.preventDefault();
     });
   });
   
-  link.forEach(function(link) {
+  
+   link.forEach(function(link) {
     link.addEventListener('click', function(e){
       e.preventDefault();
     })
-  });
-      
-
-}
+  }); 
+  }
 // functions
 //Remove items from row
 function removeItem(item) {

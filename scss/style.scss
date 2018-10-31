@@ -1,8 +1,8 @@
 $footer_blue: #07043B;
 $btn_green: #06D79D;
 $gray: #949494;
-$text_blue: #060429;
-$para_blue: #3e377a;
+$text_blue: #0a0646;
+$para_blue: #3f3788;
 //media-width: ≥1020px, @media screen and (max-width: 992px)
 
 * {
@@ -125,20 +125,17 @@ button {
         &:first-letter {
           text-transform: uppercase;
         }        
-        font-size: 25px;
+        font-size: 24px;
         line-height: 35px;
         margin: 50px 0;
-        text-transform: lowercase;
-        font-weight: 600;
-        margin-left: -3px;
-        
+        text-transform: lowercase;        
       }
     }
   }
 
   .btn-getstarted {
     margin-top: 50px;
-    padding: 15px 60px;
+    padding: 23px 100px;
     font-size: 22px;
     box-shadow: 5px 6px 7px #4c469e;
     &:hover {
@@ -146,6 +143,7 @@ button {
     }
     @media screen and (max-width: 1020px) {
       margin-top: 0;
+      padding: 15px 60px;
       font-size: 15px;
     }
   }
@@ -180,7 +178,7 @@ button {
       text-align: center;
       font-size: 32px;
       margin-bottom: 135px;
-      font-weight: bold;
+      font-weight: 800;
       color: $text_blue;
       @media screen and (max-width: 1020px) {
         line-height: 40px;
@@ -223,14 +221,23 @@ button {
       margin: 25px 0;
       line-height: 25px;
       color: $gray;
-      font-size: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      @media screen and (max-width: 1020px) {
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: normal;
+      }
     }
 
     h3 {
-      font-size: 14px;
-      font-weight: 800;
+      font-size: 20px;
+      font-weight: 900;
       letter-spacing: 1px;
       color: $text_blue;
+      @media screen and (max-width: 1020px) {
+        font-size: 16px;
+      }
     }
 
     .row1-left {
@@ -262,6 +269,7 @@ button {
       margin-bottom: 0;
       text-align: center;
       font-size: 32px;
+      font-weight: 800;
       color: $text_blue;
       margin-top: 135px;
       @media screen and (max-width: 1020px) {
@@ -321,7 +329,7 @@ button {
 
 .page-footer-content {
 
-  margin-top: -100px;
+  margin-top: -120px;
   padding: 300px 80px 130px 80px;
   display: flex;
   justify-content: space-between;
@@ -352,15 +360,19 @@ button {
 
     .logo {
       img {
-        height: 50px;
+        height: 55px;
+        @media screen and (max-width: 1020px) {
+          height: 47px;
+        }
       }
     }
 
     .footer-phone {
       position: relative;
-      margin-top: 80px;
+      margin-top: 40px;
       margin-bottom: 20px;
       margin-left: 40px;
+      font-size: 14px;
 
       &:before {
         content: "";
@@ -377,6 +389,7 @@ button {
     .footer-email {
       position: relative;
       margin-left: 40px;
+      font-size: 14px;
 
       &:before {
         content: "";
@@ -416,7 +429,7 @@ button {
       margin-right: 20px;
       @media screen and (max-width: 1020px) {
         margin-right: 0;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
         &:last-of-type {
           margin-bottom: 0;
         }
@@ -426,6 +439,9 @@ button {
         margin-bottom: 30px;
         font-weight: bold;
         font-size: 18px;
+        @media screen and (max-width: 1020px) {
+          font-size: 16px;
+        }
       }
 
       ul {
@@ -438,6 +454,9 @@ button {
           a {
             color: #fff;
             font-size: 15px;
+            @media screen and (max-width: 1020px) {
+              font-size: 12px;
+            }
           }
         }
       }
@@ -459,8 +478,11 @@ button {
       text-align: left;
       font-size: 15px;
       line-height: 20px;
+      font-weight: 600;
       @media screen and (max-width: 1020px) {
         text-align: center;
+        font-size: 15px;
+        line-height: 25px;
       }
     }
 
