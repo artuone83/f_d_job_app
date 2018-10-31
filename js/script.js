@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 const rowClassItem = document.querySelectorAll('.row');
 const row1Right = document.querySelector('.row1-right');
 const row2Left = document.querySelector('.row2-left');
@@ -20,20 +20,19 @@ window.onload = function() {
   changeOrder();
   changeHeader();
   // prevent default
-   form.forEach(function(form) {
-    form.addEventListener('submit', function(e){
-      e.preventDefault();
-    });
-  });
-  
-  
-   link.forEach(function(link) {
-    link.addEventListener('click', function(e){
-      e.preventDefault();
-    })
-  }); 
+  prevDef(form, 'submit');  
+  prevDef(link, 'click');   
   }
 // functions
+//prevent default
+function prevDef(object, listener) {
+  let event = listener;
+  object.forEach(function(objectItem){
+    objectItem.addEventListener(event, function(e){
+      e.preventDefault();      
+    });
+  });
+}
 //Remove items from row
 function removeItem(item) {
   item.remove();
