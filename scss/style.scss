@@ -1,10 +1,8 @@
-$footer_blue: #07043B;
+$footer_blue: #06041e;
 $btn_green: #06D79D;
 $gray: #949494;
 $text_blue: #0a0646;
-$para_blue: #3f3788;
-//media-width: ≥1020px, @media screen and (max-width: 992px)
-
+$para_blue: #221e49;
 * {
   box-sizing: border-box;
   padding: 0;
@@ -14,6 +12,17 @@ $para_blue: #3f3788;
 body {
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+p {
+  font-size: 16px;
 }
 
 li {
@@ -175,10 +184,8 @@ button {
 
   header {
     h2 {
-      text-align: center;
-      font-size: 32px;
+      text-align: center;      
       margin-bottom: 135px;
-      font-weight: 800;
       color: $text_blue;
       @media screen and (max-width: 1020px) {
         line-height: 40px;
@@ -222,7 +229,7 @@ button {
       line-height: 25px;
       color: $gray;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: normal;
       @media screen and (max-width: 1020px) {
         line-height: 20px;
         font-size: 14px;
@@ -231,8 +238,6 @@ button {
     }
 
     h3 {
-      font-size: 20px;
-      font-weight: 900;
       letter-spacing: 1px;
       color: $text_blue;
       @media screen and (max-width: 1020px) {
@@ -267,9 +272,7 @@ button {
   footer {
     h2 {
       margin-bottom: 0;
-      text-align: center;
-      font-size: 32px;
-      font-weight: 800;
+      text-align: center;      
       color: $text_blue;
       margin-top: 135px;
       @media screen and (max-width: 1020px) {
@@ -417,6 +420,7 @@ button {
     justify-content: space-around;
     border-left: 1px solid;
     border-right: 1px solid;
+    letter-spacing: 1px;
     @media screen and (max-width: 1020px) {
       width: 100%;
       border: none;
@@ -438,7 +442,7 @@ button {
       p {
         margin-bottom: 30px;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 14px;
         @media screen and (max-width: 1020px) {
           font-size: 16px;
         }
@@ -446,17 +450,14 @@ button {
 
       ul {
         li {
-          margin-bottom: 25px;
+          margin-bottom: 15px;
           @media screen and (max-width: 1020px) {
             margin-bottom: 12px;
           }
 
           a {
             color: #fff;
-            font-size: 15px;
-            @media screen and (max-width: 1020px) {
-              font-size: 12px;
-            }
+            font-size: 12px;            
           }
         }
       }
