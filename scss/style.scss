@@ -236,6 +236,12 @@ button {
     //margin-right: 130px;
     width: 30%;
     @media screen and (max-width: 1020px) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       margin-right: 0;
       margin-bottom: 80px;
       width: 100%;
@@ -244,6 +250,10 @@ button {
     img {
       width: 100%;
       height: auto;
+      @media screen and (max-width: 1020px) {
+        width: 220px;
+        height: 210px;
+      }
       
     }
     

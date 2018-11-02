@@ -261,6 +261,12 @@ button {
 
 @media screen and (max-width: 1020px) {
   .stay-productive-content .stay-productive-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-right: 0;
     margin-bottom: 80px;
     width: 100%;
@@ -270,6 +276,13 @@ button {
 .stay-productive-content .stay-productive-left img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 1020px) {
+  .stay-productive-content .stay-productive-left img {
+    width: 220px;
+    height: 210px;
+  }
 }
 
 .stay-productive-content .stay-productive-right {
