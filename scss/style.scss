@@ -45,6 +45,7 @@ button {
 
 .gradient {
   background: linear-gradient(135deg, #100a6e 0, #8581cd 85%);
+  background: -webkit-linear-gradient(135deg, #100a6e 0, #8581cd 85%);
   @media screen and (max-width: 1020px) {
     padding: 30px 30px;
   }
