@@ -388,6 +388,7 @@ button {
 
 .stay-productive-content footer form .form-input {
   width: 55%;
+  color: #949494;
   margin-right: 30px;
   -webkit-box-shadow: 0px 0px 12px #efefef;
   box-shadow: 0px 0px 12px #efefef;
@@ -633,4 +634,5 @@ button {
 .page-footer-content .footer-right .form-input {
   margin-top: 35px;
   margin-bottom: 10px;
+  color: #949494;
 }
