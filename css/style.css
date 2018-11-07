@@ -55,6 +55,7 @@ button {
   padding: 15px;
   border-radius: 2px;
   border-width: 0;
+  font-family: inherit;
 }
 
 .btn-submit {
